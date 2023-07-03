@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+</head>
+<body>
+    <form action="registration.php" method="post">
+        <fieldset>
+            <legend>
+                Sign Up
+            </legend>
+            <table border="0">
+
+                <tr>
+                    <td>
+                        Fullname: 
+                    </td>
+                    <td>
+                        <input type="text" name="fullname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Username: 
+                    </td>
+                    <td>
+                        <input type="text" name="username" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Country: 
+                    </td>
+                    <td>
+                        <input type="text" name="country" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Phone Number: 
+                    </td>
+                    <td>
+                        <input type="text" name="phone" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender: 
+                    </td>
+                    <td>
+                        <select name="gender">
+                            <option value="Male">Select</option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Email: 
+                    </td>
+                    <td>
+                        <input type="text" name="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Date of Birth: 
+                    </td>
+                    <td>
+                        <input type="date" name="dob" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password: 
+                    </td>
+                    <td>
+                        <input type="password" name="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Re-Enter Password: 
+                    </td>
+                    <td>
+                        <input type="password" name="cpassword" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="termsandconditions" required>
+                        I accept the terms and conditions
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="submit">
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
